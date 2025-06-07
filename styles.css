@@ -1,0 +1,130 @@
+body, html {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .custom-container {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: block;
+  }
+
+  .navbar-nav {
+    margin-left: auto !important;
+    font-family: 'Inter', sans-serif;
+    color: #808080;
+    padding: 0 1rem;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #808080 !important;
+    opacity: 80%;
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .btn-primary {
+    font-family: 'Castoro Titling', serif;
+    color: #353535;
+    background-color: #FFC675;
+    opacity: 80%;
+    border: none;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+  .btn-primary:hover {
+    background-color: #FFC675;
+    opacity: 100%;
+  }
+
+  
+  h1 {
+    font-family: 'Castoro Titling', serif;
+    font-size: 32px;
+    color: #00500B;
+  }
+  
+  h2 {
+    font-family: 'Castoro Titling', serif;
+    font-size: 24px;
+    color: #00500B;
+  }
+
+  p {
+    font-size: 14px;
+    color: #808080;
+  }
+
+  h5 {
+    font-family: 'Castoro Titling', serif;
+    font-size: 14px;
+    color: #00500B;
+    text-transform: uppercase;
+    
+  }
+
+  .background-video {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .background-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+
+  .header-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.large {
+ padding: 10px; 
+ box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);;
+}
+
+.container-fluid .about-pilates-home {
+    margin-top: 50px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .home-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .text-group {
+    padding: 1rem 1.5rem;
+  }
+
