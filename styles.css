@@ -130,3 +130,10 @@ body, html {
     margin-top: 0 !important;
   }
 
+  .review-img {
+    max-width: 70%;
+    height: auto;
+    align-items: center;
+  }
+
+
